@@ -103,3 +103,4 @@ This is an educational demonstration. The product database is stored in memory a
 ## 👨‍🎓 Academic Context
 
 Developed as a practical exercise in Distributed Systems to demonstrate the design, implementation, and testing of a simple layered client-server application on a localhost environment.
+![alt text](screenshots/image.png)
