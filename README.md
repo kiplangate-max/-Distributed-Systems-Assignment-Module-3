@@ -2,7 +2,7 @@
 
 A Python-based client-server application developed for Distributed Systems coursework at Kabarak University. The project demonstrates TCP socket communication over localhost, JSON-based request-response handling, and a layered architecture for retrieving product information.
 
-## 🏛️ System Architecture
+## System Architecture
 
 ### Server-Side Layers
 
@@ -14,7 +14,7 @@ A Python-based client-server application developed for Distributed Systems cours
 
 1. **Presentation / Client Layer:** Provides a command-line interface, accepts product IDs from the user, establishes a TCP connection with the server, and displays the returned product information in a readable format.
 
-## 🔄 Communication Process
+## Communication Process
 
 The application follows a request-response communication model:
 
@@ -26,7 +26,7 @@ The application follows a request-response communication model:
 6. The server sends the response to the client and closes the connection.
 7. The client decodes the JSON response and displays the result.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Programming language:** Python
 - **Networking:** TCP sockets
@@ -35,7 +35,7 @@ The application follows a request-response communication model:
 - **Port:** `65432`
 - **Data storage:** In-memory Python dictionary
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 kabarak-distributed-systems/
@@ -44,7 +44,7 @@ kabarak-distributed-systems/
 └── README.md
 ```
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 
@@ -79,13 +79,13 @@ Enter one of the available product IDs when prompted:
 
 Enter `999` to test how the application handles a product that does not exist. Enter `exit` to close the client.
 
-## 🧪 Expected Results
+## Expected Results
 
 - **Successful request:** The client displays the product name, price, and available stock.
 - **Unsuccessful request:** The client displays an error message when the product ID is not found.
 - **Server monitoring:** The server terminal displays incoming requests and response statuses.
 
-## 🎯 Learning Objectives
+## Learning Objectives
 
 This project demonstrates:
 
@@ -96,16 +96,16 @@ This project demonstrates:
 - Basic error handling and resource management.
 - Local network communication using Python.
 
-## ⚠️ Project Scope
+## Project Scope
 
 This is an educational demonstration. The product database is stored in memory and is not connected to a persistent database or Kabarak University's actual inventory system. The server processes client connections sequentially.
 
-## 👨‍🎓 Academic Context
+## Academic Context
 
 Developed as a practical exercise in Distributed Systems to demonstrate the design, implementation, and testing of a simple layered client-server application on a localhost environment.
+
 ## Application Screenshot
 
 The following screenshot provides visual evidence of the application demonstration.
 
 ![Client-server application screenshot](screenshots/image.png)
-
