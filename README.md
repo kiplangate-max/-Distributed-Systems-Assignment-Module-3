@@ -1,4 +1,4 @@
-# Kabarak University — Layered Client-Server Application
+# Kabarak University-Layered Client-Server Application
 
 A Python-based client-server application developed for Distributed Systems coursework at Kabarak University. The project demonstrates TCP socket communication over localhost, JSON-based request-response handling, and a layered architecture for retrieving product information.
 
